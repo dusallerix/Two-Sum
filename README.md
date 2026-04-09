@@ -1,5 +1,5 @@
 # Two-Sum
-Задача с [Leetcode](https://leetcode.com/problems/two-sum/description/).
+Задача с [Leetcode](https://leetcode.com/problems/two-sum/description/). Сложность: *Easy*
 
 ## Описание задачи
 
