@@ -4,29 +4,23 @@
 
 ## Описание задачи
 
->"Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.  
-You may assume that each input would have exactly one solution, and you may not use the same element twice.  
-You can return the answer in any order."
-
 Дан массив целых чисел nums и целое число target. Верните индексы этих двух чисел так, чтобы их сумма равнялась target.  
 Предположим, что для каждого входного значения существует ровно одно решение, и нельзя использовать один и тот же элемент дважды.
-Ответ можно возвращать в любом порядке.  
+Ответ можно возвращать в любом порядке.    
 
 Example 1:
-|Input:|Output:|Explanation:|
-|-|-|-|
-|nums = [2,7,11,15] <br>target = 9|[0,1]|nums[0] + nums[1] == 9, we return [0, 1]|
-
+>Input: nums = [2,7,11,15], target = 9  
+>Output: [0,1]  
+>Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].  
+  
 Example 2:
-|Input:|Output:|
-|-|-|
-|nums = [3,2,4] <br>target = 6|[1,2]|
-
+>Input: nums = [3,2,4], target = 6  
+>Output: [1,2]
+  
 Example 3:
+>Input: nums = [3,3], target = 6  
+>Output: [0,1]
 
-|Input:|Output:|Explanation:|
-|-|-|-|
-|nums = [3,3] <br>target = 6|[0,1]|Ответ [0,0] будет ошибкой из-за условия|
 
 ## Логика решения
 
